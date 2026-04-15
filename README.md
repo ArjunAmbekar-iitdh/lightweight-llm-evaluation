@@ -16,7 +16,7 @@ The goal of this project is to provide empirical data for a review paper compari
 
   * **Performance:** Tokens Per Second (TPS) and Time to First Token (TTFT).
   * **Efficiency:** VRAM consumption and Power Draw (Watts).
-  * **Quantization:** Impact of 4-bit ($Q4\_K\_M$) quantization on inference speed across platforms.
+  * **Quantization:** Impact of 4-bit -$Q4\_K\_M$- quantization on inference speed across platforms.
 
 -----
 
