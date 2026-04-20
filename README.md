@@ -33,9 +33,8 @@ The goal of this project is to provide empirical data for a review paper compari
 
 ## 🧠 Supported Models
 
-  * **Gemma-3-1B / 4B** (Google)
-  * **Qwen-2.5-0.5B / 1.5B** (Alibaba)
-  * **Phi-4-mini** (Microsoft)
+  * **Gemma 3 (Google):** sliding-window attention, text-only at 1B
+  * **Qwen 3 (Alibaba):** hybrid thinking/non-thinking modes, Apache 2.0
 
 -----
 
@@ -61,17 +60,13 @@ The goal of this project is to provide empirical data for a review paper compari
 
 ## 🚀 Quick Start (Phase 1: Colab)
 
-1.  Navigate to `/colab` and open `Phase1_Baseline.ipynb`.
+1.  Navigate to `/colab` and open `ultralight_llm_bench_colab.ipynb`.
 2.  Run benchmarking cells to establish **Cloud Baseline**.
 3.  Execute the **Model Dump** script to export `.gguf` files for the Xavier.
 
 ## 📜 Citation
 
 If you use this benchmarking suite for your research, please cite:
-
-```text
-[Your Name/Team], "Comparative analysis of ultra-lightweight LLMs on Edge vs Cloud," 2026.
-```
 
 -----
 
